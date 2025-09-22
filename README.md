@@ -24,8 +24,7 @@
 ├── contact.html # Contact information
 ├── style.css # Styling and responsive design
 ├── script.js # Mobile nav toggle (and interactivity)
-yaml
-Copy code
+├── utilities # images and screenshots
 
 ---
 
@@ -37,23 +36,22 @@ Copy code
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Site](https://your-demo-link.com)  
-*(Replace with your GitHub Pages / Netlify / Vercel URL)*
+👉 [View Live Site](https://jembebarabarani.netlify.app/)  
 
 ---
 
 ## 📸 Screenshots
 ### Home Page
-![Home Screenshot](images/home-screenshot.png)
+![Home Screenshot](utilities/Jembe Home.png)
 
 ### Services Page
-![Services Screenshot](images/services-screenshot.png)
+![Services Screenshot](utilities/Jembe Services.png)
 
 ---
 
 ## 📞 Contact
-- **Phone:** +254 712 345 678  
-- **Email:** info@jembebarabarani.com  
+- **Phone:** +254 700 000 000 
+- **Email:** info@jembebarabarani.example
 - **Social Media:** Facebook | Twitter | Instagram  
 
 ---
