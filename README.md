@@ -42,23 +42,11 @@ Copy code
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Site](https://your-demo-link.com)  
-*(Replace with your GitHub Pages / Netlify / Vercel URL)*
-
----
-
-## 📸 Screenshots
-### Home Page
-![Home Screenshot](utilities/Jembe Home.png)
-
-### Services Page
-![Services Screenshot](utilities/Jembe Services.png)
-
----
+👉 [View Live Site](https://jembebarabarani.netlify.app/)  
 
 ## 📞 Contact
-- **Phone:** +254 712 345 678  
-- **Email:** info@jembebarabarani.com  
+- **Phone:** +254 700 000 000  
+- **Email:** info@jembebarabarani.example
 - **Social Media:** Facebook | Twitter | Instagram  
 
 ---
