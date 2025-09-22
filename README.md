@@ -19,12 +19,18 @@
 
 ## 📂 Project Structure
 ├── index.html # Home page
+
 ├── about.html # About page
+
 ├── services.html # Services and driver showcase
+
 ├── contact.html # Contact information
+
 ├── style.css # Styling and responsive design
+
 ├── script.js # Mobile nav toggle (and interactivity)
-├── utilities # images and screenshots
+yaml
+Copy code
 
 ---
 
@@ -36,7 +42,8 @@
 ---
 
 ## 🚀 Live Demo
-👉 [View Live Site](https://jembebarabarani.netlify.app/)  
+👉 [View Live Site](https://your-demo-link.com)  
+*(Replace with your GitHub Pages / Netlify / Vercel URL)*
 
 ---
 
@@ -50,8 +57,8 @@
 ---
 
 ## 📞 Contact
-- **Phone:** +254 700 000 000 
-- **Email:** info@jembebarabarani.example
+- **Phone:** +254 712 345 678  
+- **Email:** info@jembebarabarani.com  
 - **Social Media:** Facebook | Twitter | Instagram  
 
 ---
