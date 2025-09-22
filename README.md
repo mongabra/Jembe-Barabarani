@@ -1,90 +1,63 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# 🌾 Jembe Barabarani
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+**Jembe Barabarani** is a responsive multipage website that showcases farm produce transportation services — moving crops and livestock from farm to factory. The website adopts a farm theme to reflect its purpose and highlight professionalism in transport operations.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
-
----
-
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
-
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+## 📌 Features
+- **Multipage design (4 pages):**
+  - **Home** – welcoming hero section with CTA
+  - **About** – vision and mission of the service
+  - **Services** – available transport options and top drivers
+  - **Contact** – phone, email, and social media links
+- **Responsive navigation bar** with hamburger menu on mobile
+- **Farm-themed design** (green, yellow, earthy tones)
+- **Driver showcase** with vehicle categories
+- **Footer** with social links
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+## 📂 Project Structure
+├── index.html # Home page
+├── about.html # About page
+├── services.html # Services and driver showcase
+├── contact.html # Contact information
+├── style.css # Styling and responsive design
+├── script.js # Mobile nav toggle (and interactivity)
+yaml
+Copy code
 
 ---
 
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+## 🛠️ Technologies Used
+- **HTML5** – structure and semantic content
+- **CSS3** – styling, layout, and responsive design
+- **JavaScript** – navigation menu toggle and interactivity
 
 ---
 
-## Outcome
+## 🚀 Live Demo
+👉 [View Live Site](https://your-demo-link.com)  
+*(Replace with your GitHub Pages / Netlify / Vercel URL)*
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+---
+
+## 📸 Screenshots
+### Home Page
+![Home Screenshot](images/home-screenshot.png)
+
+### Services Page
+![Services Screenshot](images/services-screenshot.png)
+
+---
+
+## 📞 Contact
+- **Phone:** +254 712 345 678  
+- **Email:** info@jembebarabarani.com  
+- **Social Media:** Facebook | Twitter | Instagram  
+
+---
+
+## 📄 License
+This project is for educational purposes.  
+Feel free to use and customize it.

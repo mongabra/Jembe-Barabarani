@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jembe Barabarani — Contact</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Jembe Barabarani</a>
+      <button id="navToggleContact" class="nav-toggle" aria-expanded="false" aria-controls="mainNavContact" aria-label="Open navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="mainNavContact" class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container contact">
+      <h1>Contact Us</h1>
+      <p>Phone: <a href="tel:+254700000000">+254 700 000 000</a></p>
+      <p>Email: <a href="mailto:info@jembebarabarani.example">info@jembebarabarani.example</a></p>
+
+      <h2>Send us a message</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="fullName">Full name</label>
+          <input id="fullName" name="fullName" type="text" required />
+          <div class="error" id="errName" aria-live="polite"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="text" required />
+          <div class="error" id="errPhone" aria-live="polite"></div>
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="messageField" name="message" rows="4" required></textarea>
+          <div class="error" id="errMessage" aria-live="polite"></div>
+        </div>
+
+        <button class="btn" type="submit">Send Message</button>
+        <div id="formResult" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="brand small">Jembe Barabarani</p>
+        <p>Reliable farm transport — field to factory.</p>
+      </div>
+      <div>
+        <p>Follow us</p>
+        <ul class="social-list">
+          <li><a href="#" aria-label="Facebook">Facebook</a></li>
+          <li><a href="#" aria-label="Twitter">Twitter</a></li>
+          <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>© <span id="yearContact"></span> Jembe Barabarani</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

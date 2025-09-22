@@ -1,0 +1,200 @@
+/* ======================
+   Global & Layout
+   ====================== */
+:root{
+  --accent:#2f855a;    /* green */
+  --accent-dark:#22543d;
+  --muted:#6b7280;
+  --bg:#f7fafc;
+  --card:#ffffff;
+  --shadow: 0 6px 20px rgba(16,24,40,0.08);
+  --max-width:1100px;
+  --radius:10px;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  font-family: "Segoe UI", Roboto, system-ui, Arial, sans-serif;
+  margin:0;
+  background:var(--bg);
+  color:#111827;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.container{
+  width:90%;
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:2rem 0;
+}
+
+/* Header / Nav */
+.site-header{
+  background:#ffffff;
+  border-bottom:1px solid #e6e9ee;
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  padding:1rem 0;
+}
+.brand{
+  font-weight:800;
+  color:var(--accent-dark);
+  text-decoration:none;
+  font-size:1.2rem;
+}
+.nav{
+  display:flex;
+}
+.nav-list{
+  display:flex;
+  list-style:none;
+  gap:1rem;
+  margin:0;
+  padding:0;
+}
+.nav-list a{
+  display:inline-block;
+  padding:.5rem .75rem;
+  color:#0f172a;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:600;
+}
+.nav-list a:hover,
+.nav-list a.active{
+  background:var(--accent);
+  color:white;
+}
+
+/* Hamburger (mobile) */
+.nav-toggle{
+  display:none;
+  background:transparent;
+  border:0;
+  cursor:pointer;
+}
+.hamburger{
+  width:24px;
+  height:2px;
+  background:#0f172a;
+  display:block;
+  position:relative;
+}
+.hamburger::before,
+.hamburger::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  height:2px;
+  background:#0f172a;
+}
+.hamburger::before{top:-7px}
+.hamburger::after{top:7px}
+
+/* Hero */
+.hero{
+  background: linear-gradient(180deg, rgba(47,133,90,0.06), rgba(47,133,90,0));
+  padding:3rem 0;
+}
+.hero-inner{ text-align:center }
+.hero h1{
+  margin:0;
+  font-size:2rem;
+  line-height:1.1;
+}
+.lead{ color:var(--muted); margin-top:.5rem; }
+.hero-cta{ margin-top:1rem; display:inline-flex; gap:1rem; }
+
+/* Buttons */
+.btn{
+  display:inline-block;
+  padding:.6rem 1rem;
+  border-radius:8px;
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  font-weight:700;
+  box-shadow:var(--shadow);
+}
+.btn-outline{
+  background:transparent;
+  border:2px solid var(--accent);
+  color:var(--accent-dark);
+}
+
+/* Features/transport cards */
+.features{ display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); padding:2rem 0;}
+.feature{ background:var(--card); padding:1rem; border-radius:var(--radius); box-shadow:var(--shadow)}
+
+/* Services transport cards */
+.transport-list{ display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); margin-top:1rem}
+.transport-card{ background:var(--card); padding:1rem; border-radius:var(--radius); box-shadow:var(--shadow); text-align:left}
+.vehicle-illustration{ font-size:2rem; margin-bottom:.5rem}
+
+/* Driver showcase */
+.drivers{ padding-top:2rem}
+.driver-grid{ display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.driver-card{ background:var(--card); padding:1rem; border-radius:12px; box-shadow:var(--shadow); text-align:center}
+.driver-photo{ font-size:3rem; margin-bottom:.5rem}
+.badge{ display:inline-block; margin-top:.5rem; padding:.25rem .5rem; background:#eef8f2; color:var(--accent-dark); border-radius:999px; font-size:.85rem}
+
+/* Contact form */
+.contact .form-row{ margin-bottom:1rem }
+label{ display:block; margin-bottom:.4rem; font-weight:600 }
+input[type="text"], textarea{
+  width:100%;
+  padding:.6rem;
+  border:1px solid #e6e9ee;
+  border-radius:8px;
+  font-size:1rem;
+  background:white;
+}
+.error{ color:#b91c1c; font-size:.9rem; margin-top:.3rem }
+#formResult{ margin-top:.6rem; font-weight:700 }
+
+/* Footer */
+.site-footer{ background:#ffffff; border-top:1px solid #e6e9ee; padding:1rem 0; margin-top:2rem }
+.footer-inner{ display:flex; gap:1rem; align-items:center; justify-content:space-between; flex-wrap:wrap }
+.small{ font-size:.9rem; color:var(--muted) }
+.social-list{ list-style:none; display:flex; gap:.6rem; margin:0; padding:0}
+.social-list a{ color:var(--muted); text-decoration:none; font-weight:600 }
+
+/* ======================
+   Animations & Transitions
+   ====================== */
+.cta-btn, .btn{ transition: transform .18s ease, background-color .18s ease; }
+.btn:hover{ transform: translateY(-3px) }
+
+/* Card hover lift */
+.transport-card, .driver-card{
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.transport-card:hover, .driver-card:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(16,24,40,.12);
+}
+
+/* Responsive layout */
+@media (max-width: 880px){
+  .nav{ position:absolute; top:64px; right:0; background:white; width:220px; border-left:1px solid #eef2f6; display:none; }
+  .nav.open{ display:block; padding:1rem; }
+  .nav-list{ flex-direction:column; gap:.5rem }
+  .nav-toggle{ display:block }
+  .header-inner{ align-items:center }
+  .footer-inner{ flex-direction:column; align-items:flex-start }
+  .hero h1{ font-size:1.4rem }
+}
+
+/* small screens */
+@media (max-width:420px){
+  .container{ width:95% }
+  .driver-photo{ font-size:2.4rem }
+}
